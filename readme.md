@@ -27,5 +27,5 @@ docker exec -it redis redis-cli -a <YOUR_REDIS_PASSWORD>
 To stop redis
 
 ```bash
-docker-compose down
+PASS=<YOUR_REDIS_PASSWORD> docker-compose down
 ```
